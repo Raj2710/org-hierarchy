@@ -1,0 +1,115 @@
+[
+    {
+      "name": "Mark",
+      "role":"CEO",
+      "children": [
+        {
+          "name": "Sriram",
+          "role":"Head of Staff/HR",
+          "children": [
+            {
+              "name": "Hari",
+              "role":"Operations Team",
+              "children": [
+                {
+                  "name":"Angeline",
+                  "role":"Associate"
+                },
+                {
+                  "name":"Ram",
+                  "role":"Associate"
+                },
+                {
+                  "name":"Shiva",
+                  "role":"Associate"
+                }
+              ]
+            },
+            {
+              "name":"Akilan",
+              "role":"Reccruitment Team",
+              "children":[
+                {
+                  "name":"Ram Prakash",
+                  "role":"Associate"
+                },
+                {
+                  "name":"Aurumugam",
+                  "role":"Associate"
+                },
+                {
+                  "name":"Asifa",
+                  "role":"Associate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mithun",
+          "role":"Head Engineering",
+          "children": [
+            {
+              "name": "Prkash",
+              "role":"Front End Team",
+              "children": [
+                {
+                  "name": "Kishore",
+                  "role":"UI/UX Designer"
+                },
+                {
+                  "name":"Raj",
+                  "role": "React Developer"
+                }
+              ]
+            },
+            {
+                "name":"Kumar",
+                "role":"Backend Team",
+                "children":[
+                  {
+                    "name":"Purushoth",
+                    "role":"Cloud Engineer"
+                  },
+                  {
+                    "name":"Rahul",
+                    "role":"Backend Engineer"
+                  }
+                ]
+            }
+          ]
+        },
+        {
+          "name": "Deepak",
+          "role":"Head Buisness Developement",
+          "children": [
+            {
+              "name": "Guru",
+              "role":"North Zone Head",
+              "children": [
+                {
+                  "name": "Arvind",
+                  "role":"Associat BDM"
+                }
+              ]
+            },
+            {
+                "name":"Kumar",
+                "role":"South Zone Head",
+                "children":[
+                  {
+                    "name":"Paramesh",
+                    "role":"Associate BDM"
+                  },
+                  {
+                    "name":"Adhav",
+                    "role":"Associate BDM",
+                    "children":[{"name":"Ravana","role":"Helper"}]
+                  }
+                ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
