@@ -1,26 +1,27 @@
 import React, { Fragment } from "react";
 import randomcolor from "randomcolor"
-import faker from "faker"
 import {useState} from "react";
-import data from "./data.json";
-
+import d from "./data.json";
+import AddRoundedIcon from '@material-ui/icons/AddRounded';
+import RemoveRoundedIcon from '@material-ui/icons/RemoveRounded';
 const Card = (props) => {
   const levelColor = randomcolor();
-  let [collapse,setCollapse]=useState(true);
+  let [collapse,setCollapse]=useState(false)
+  let collapsee=false;
   let handleCollapse = ()=>{
-    setCollapse(e=>!e);
+      setCollapse(collapse=>!collapse)
+      collapsee=!collapsee;
   }
   return (
     <ul>
       {props.data.map((item) => {
-
 
         return <Fragment key={item.name}>
           <li>
             <div className="card">
               <div className="image">
                 <img
-                  src={faker.image.avatar()}
+                  src={item.image}
                   alt="Profile"
                   style={{ borderColor: levelColor }}
                 />
@@ -29,9 +30,9 @@ const Card = (props) => {
                 <h4>{item.name}</h4>
                 <p>{item.role}</p>
               </div>
-              <button onClick={handleCollapse}>Show/Hide</button>
+              {item.children?<button onClick={handleCollapse} className={collapse?"collapseBtn Btn":"expandBtn Btn"}>{collapse?<RemoveRoundedIcon/>:<AddRoundedIcon/>}</button>:""}
             </div>
-            {item.children?!collapse?<Card data={item.children}/>:"":""}
+            {item.children?collapse?<Card data={item.children}/>:"":""}
           </li>
         </Fragment>
       })}
@@ -40,6 +41,7 @@ const Card = (props) => {
 };
 
 const Chart = () => {
+  let [data]=useState(d);
   return (
     <div className="org-tree">
       <Card data={data} />

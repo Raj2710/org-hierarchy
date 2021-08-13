@@ -2,44 +2,54 @@
     {
       "name": "Mark",
       "role":"CEO",
+      "image":"https://cdn.fakercloud.com/avatars/gabrielrosser_128.jpg",
       "children": [
         {
           "name": "Sriram",
           "role":"Head of Staff/HR",
+          "image":"https://cdn.fakercloud.com/avatars/alagoon_128.jpg",
           "children": [
             {
               "name": "Hari",
               "role":"Operations Team",
+              "image":"https://cdn.fakercloud.com/avatars/creartinc_128.jpg",
               "children": [
                 {
                   "name":"Angeline",
-                  "role":"Associate"
+                  "role":"Associate",
+                  "image":"https://cdn.fakercloud.com/avatars/nicoleglynn_128.jpg"
                 },
                 {
                   "name":"Ram",
-                  "role":"Associate"
+                  "role":"Associate",
+                  "image":"https://cdn.fakercloud.com/avatars/mrjamesnoble_128.jpg"
                 },
                 {
                   "name":"Shiva",
-                  "role":"Associate"
+                  "role":"Associate",
+                  "image":"https://cdn.fakercloud.com/avatars/s4f1_128.jpg"
                 }
               ]
             },
             {
               "name":"Akilan",
               "role":"Reccruitment Team",
+              "image":"https://cdn.fakercloud.com/avatars/sterlingrules_128.jpg",
               "children":[
                 {
                   "name":"Ram Prakash",
-                  "role":"Associate"
+                  "role":"Associate",
+                  "image":"https://cdn.fakercloud.com/avatars/bublienko_128.jpg"
                 },
                 {
                   "name":"Aurumugam",
-                  "role":"Associate"
+                  "role":"Associate",
+                  "image":"https://cdn.fakercloud.com/avatars/emsgulam_128.jpg"
                 },
                 {
                   "name":"Asifa",
-                  "role":"Associate"
+                  "role":"Associate",
+                  "image":"https://cdn.fakercloud.com/avatars/jesseddy_128.jpg"
                 }
               ]
             }
@@ -48,32 +58,39 @@
         {
           "name": "Mithun",
           "role":"Head Engineering",
+          "image":"https://cdn.fakercloud.com/avatars/matt3224_128.jpg",
           "children": [
             {
               "name": "Prkash",
               "role":"Front End Team",
+              "image":"https://cdn.fakercloud.com/avatars/vj_demien_128.jpg",
               "children": [
                 {
                   "name": "Kishore",
-                  "role":"UI/UX Designer"
+                  "role":"UI/UX Designer",
+                  "image":"https://cdn.fakercloud.com/avatars/javorszky_128.jpg"
                 },
                 {
                   "name":"Raj",
-                  "role": "React Developer"
+                  "role": "React Developer",
+                  "image":"https://cdn.fakercloud.com/avatars/borantula_128.jpg"
                 }
               ]
             },
             {
                 "name":"Kumar",
                 "role":"Backend Team",
+                "image":"https://cdn.fakercloud.com/avatars/kurafire_128.jpg",
                 "children":[
                   {
                     "name":"Purushoth",
-                    "role":"Cloud Engineer"
+                    "role":"Cloud Engineer",
+                    "image":"https://cdn.fakercloud.com/avatars/silv3rgvn_128.jpg"
                   },
                   {
                     "name":"Rahul",
-                    "role":"Backend Engineer"
+                    "role":"Backend Engineer",
+                    "image":"https://cdn.fakercloud.com/avatars/angelceballos_128.jpg"
                   }
                 ]
             }
@@ -82,29 +99,40 @@
         {
           "name": "Deepak",
           "role":"Head Buisness Developement",
+          "image":"https://cdn.fakercloud.com/avatars/alevizio_128.jpg",
           "children": [
             {
               "name": "Guru",
               "role":"North Zone Head",
+              "image":"https://cdn.fakercloud.com/avatars/ryhanhassan_128.jpg",
               "children": [
                 {
                   "name": "Arvind",
-                  "role":"Associat BDM"
+                  "role":"Associat BDM",
+                  "image":"https://cdn.fakercloud.com/avatars/lowie_128.jpg"
                 }
               ]
             },
             {
                 "name":"Kumar",
                 "role":"South Zone Head",
+                "image":"https://cdn.fakercloud.com/avatars/kianoshp_128.jpg",
                 "children":[
                   {
                     "name":"Paramesh",
-                    "role":"Associate BDM"
+                    "role":"Associate BDM",
+                    "image":"https://cdn.fakercloud.com/avatars/amayvs_128.jpg"
                   },
                   {
                     "name":"Adhav",
                     "role":"Associate BDM",
-                    "children":[{"name":"Ravana","role":"Helper"}]
+                    "image":"https://cdn.fakercloud.com/avatars/soyjavi_128.jpg",
+                    "children":[
+                      {"name":"Ravana",
+                        "role":"Helper",
+                        "image":"https://cdn.fakercloud.com/avatars/coreyhaggard_128.jpg"
+                        }
+                      ]
                   }
                 ]
             }

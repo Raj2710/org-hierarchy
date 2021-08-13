@@ -10,19 +10,17 @@
   right: 0;
   left: 0;
   z-index: 9999;
-  display: block;
   margin: 0;
   width: 100%;
-  min-width: 1024px;
   height: 48px;
-  max-height: 44px;
-  background: rgba(221, 221, 221, 0.92);
+  background:teal;
   font-size: 17px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   padding-left: 60px;
+  color: #fff;
 }
 .follow {
   float: right;
@@ -36,7 +34,7 @@
 
 body {
   font-family: "Sen", sans-serif;
-  background: #f9f9fa;
+  background: #f8f0ef;
 }
 
 .container {
@@ -182,11 +180,9 @@ body {
   background: #fff;
   height: 56px;
   text-align: center;
-  width: 300px;
+  width: 200px;
   padding-top: 60px;
   border-radius: 16px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
   position: relative;
   z-index: -1;
   left: 50%;
@@ -218,4 +214,24 @@ body {
 .card .card-footer img {
   width: 25px;
   margin: 5px;
+}
+
+.expandBtn>.MuiSvgIcon-root{
+  background-color: teal;
+  color: white;
+  border-radius:50%;
+  cursor: pointer;
+}
+
+.Btn{
+  margin-top: -20px;
+  background:none;
+  border: none;
+}
+
+.collapseBtn>.MuiSvgIcon-root{
+  background-color: rgb(219, 37, 37);
+  color: white;
+  border-radius:50%;
+  cursor: pointer;
 }
