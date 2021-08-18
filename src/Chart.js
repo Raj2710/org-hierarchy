@@ -29,7 +29,6 @@ const Card = (props) => {
               <div className="card-body">
                 <h4>{item.name}</h4>
                 <p>{item.role}</p>
-                <p>{item.reportingTo}</p>
               </div>
               {item.children?<button onClick={handleCollapse} className={collapse?"collapseBtn Btn":"expandBtn Btn"}>{collapse?<RemoveRoundedIcon/>:<AddRoundedIcon/>}</button>:""}
             </div>
