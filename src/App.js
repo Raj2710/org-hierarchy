@@ -9,8 +9,9 @@ export const DataContext = React.createContext()
 export default function App() {
   let [data,setData]=useState(d);
   let [showhide,setShowHide]=useState(true);
+  let last = 131025;
   return (
-    <DataContext.Provider value={{data,setData}}>
+    <DataContext.Provider value={{data,setData,last}}>
     <Router>
               <Header showhide={showhide} setShowHide={setShowHide}/>
               <Switch>

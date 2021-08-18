@@ -1,11 +1,10 @@
 import React from 'react'
 
 function AddTeamMember() {
-    console.log("Add Rendered");
     return (
-        <h1 style={{background:"blue"}}>
-            Have a nice day
-        </h1>
+        <div className="add-wrapper">
+            <h1>Add Team Member</h1>
+        </div>
     )
 }
 

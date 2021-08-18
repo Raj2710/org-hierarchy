@@ -3,6 +3,9 @@
   margin: 0;
 }
 .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 45px;
   line-height: 45px;
   position: fixed;
@@ -22,6 +25,35 @@
   padding-left: 60px;
   color: #fff;
 }
+
+.header-left{
+width: 50%;
+}
+
+.header-right{
+width:45%;
+text-align: right;
+}
+
+.header-right>button{
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  background-color: teal;
+}
+
+.header-right>button:hover{
+  font-size:21px;
+}
+
+.header-right .link{
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+
+}
+
 .follow {
   float: right;
   margin-right: 79px;

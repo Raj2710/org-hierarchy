@@ -7,8 +7,9 @@ function Details({data}){
     return <>
         {data.map((item)=>{
 
-            return <Fragment key={item.mobile}>
+            return <Fragment key={item.id}>
                 <tr>
+                    <td>{item.id}</td>
                     <td>{item.name}</td>
                     <td>{item.role}</td>
                     <td>{item.mobile}</td>
@@ -29,13 +30,14 @@ function AllEmployee() {
 
     return (
         <div className="all-emp-wrapper">
-        <table className="table table-hover">
+        <table>
             <tbody>
             <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Role</th>
-                <th scope="col">Mobile</th>
-                <th scope="col">Email</th>
+                <th>#ID</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Mobile</th>
+                <th>Email</th>
             </tr>
             <Details data={info.data}/>
             </tbody>

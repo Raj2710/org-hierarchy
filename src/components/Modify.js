@@ -7,6 +7,7 @@ import CreateTeam from './CreateTeam'
 import SearchEmployee from './SearchEmployee'
 import UpdateEmployee from './UpdateEmployee'
 import AllEmployee from './AllEmployee';
+import RemoveTeamMember from './RemoveTeamMember';
 import './Modify.css';
 function Modify({showhide}) {
     return (
@@ -18,6 +19,7 @@ function Modify({showhide}) {
                     <>
                         <Switch>
                             <Route path ='/modify/add-team-member' component={AddTeamMember}/>
+                            <Route path = '/modify/remove-team-member' component={RemoveTeamMember}/>
                             <Route path ='/modify/change-team' component={ChangeTeam}/>
                             <Route path ='/modify/create-team' component={CreateTeam}/>
                             <Route path ='/modify/search-employee' component={SearchEmployee}/>
