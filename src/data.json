@@ -3,31 +3,48 @@
       "name": "Mark",
       "role":"CEO",
       "image":"https://cdn.fakercloud.com/avatars/gabrielrosser_128.jpg",
+      "email":"sample1@sample.com",
+      "mobile":"9087654321",
       "children": [
         {
           "name": "Sriram",
           "role":"Head of Staff/HR",
           "image":"https://cdn.fakercloud.com/avatars/alagoon_128.jpg",
+          "reportingTo":"Mark",
+          "email":"sample2@sample.com",
+          "mobile":"9087654322",
           "children": [
             {
               "name": "Hari",
               "role":"Operations Team",
               "image":"https://cdn.fakercloud.com/avatars/creartinc_128.jpg",
+              "reportingTo":"Sriram",
+              "email":"sample3@sample.com",
+              "mobile":"9087654323",
               "children": [
                 {
                   "name":"Angeline",
                   "role":"Associate",
-                  "image":"https://cdn.fakercloud.com/avatars/nicoleglynn_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/nicoleglynn_128.jpg",
+                  "reportingTo":"Hari",
+                  "email":"sample4@sample.com",
+                  "mobile":"9087654324"
                 },
                 {
                   "name":"Ram",
                   "role":"Associate",
-                  "image":"https://cdn.fakercloud.com/avatars/mrjamesnoble_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/mrjamesnoble_128.jpg",
+                  "reportingTo":"Hari",
+                  "email":"sample5@sample.com",
+                  "mobile":"9087654325"
                 },
                 {
                   "name":"Shiva",
                   "role":"Associate",
-                  "image":"https://cdn.fakercloud.com/avatars/s4f1_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/s4f1_128.jpg",
+                  "reportingTo":"Hari",
+                  "email":"sample6@sample.com",
+                  "mobile":"9087654326"
                 }
               ]
             },
@@ -35,21 +52,33 @@
               "name":"Akilan",
               "role":"Reccruitment Team",
               "image":"https://cdn.fakercloud.com/avatars/sterlingrules_128.jpg",
+              "reportingTo":"Sriram",
+              "email":"sample7@sample.com",
+              "mobile":"9087654327",
               "children":[
                 {
                   "name":"Ram Prakash",
                   "role":"Associate",
-                  "image":"https://cdn.fakercloud.com/avatars/bublienko_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/bublienko_128.jpg",
+                  "reportingTo":"Akilan",
+                  "email":"sample8@sample.com",
+                  "mobile":"9087654328"
                 },
                 {
                   "name":"Aurumugam",
                   "role":"Associate",
-                  "image":"https://cdn.fakercloud.com/avatars/emsgulam_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/emsgulam_128.jpg",
+                  "reportingTo":"Akilan",
+                  "email":"sample9@sample.com",
+                  "mobile":"9087654329"
                 },
                 {
                   "name":"Asifa",
                   "role":"Associate",
-                  "image":"https://cdn.fakercloud.com/avatars/jesseddy_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/jesseddy_128.jpg",
+                  "reportingTo":"Akilan",
+                  "email":"sample10@sample.com",
+                  "mobile":"9087654330"
                 }
               ]
             }
@@ -59,21 +88,33 @@
           "name": "Mithun",
           "role":"Head Engineering",
           "image":"https://cdn.fakercloud.com/avatars/matt3224_128.jpg",
+          "reportingTo":"Mark",
+          "email":"sample11@sample.com",
+          "mobile":"9087654331",
           "children": [
             {
               "name": "Prkash",
               "role":"Front End Team",
               "image":"https://cdn.fakercloud.com/avatars/vj_demien_128.jpg",
+              "reportingTo":"Mithun",
+              "email":"sample12@sample.com",
+              "mobile":"9087654332",
               "children": [
                 {
                   "name": "Kishore",
                   "role":"UI/UX Designer",
-                  "image":"https://cdn.fakercloud.com/avatars/javorszky_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/javorszky_128.jpg",
+                  "reportingTo":"Prakash",
+                  "email":"sample13@sample.com",
+                  "mobile":"9087654333"
                 },
                 {
                   "name":"Raj",
                   "role": "React Developer",
-                  "image":"https://cdn.fakercloud.com/avatars/borantula_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/borantula_128.jpg",
+                  "reportingTo":"Prakash",
+                  "email":"sample14@sample.com",
+                  "mobile":"9087654334"
                 }
               ]
             },
@@ -81,16 +122,25 @@
                 "name":"Kumar",
                 "role":"Backend Team",
                 "image":"https://cdn.fakercloud.com/avatars/kurafire_128.jpg",
+                "reportingTo":"Mithun",
+                "email":"sample15@sample.com",
+                "mobile":"9087654335",
                 "children":[
                   {
                     "name":"Purushoth",
                     "role":"Cloud Engineer",
-                    "image":"https://cdn.fakercloud.com/avatars/silv3rgvn_128.jpg"
+                    "image":"https://cdn.fakercloud.com/avatars/silv3rgvn_128.jpg",
+                    "reportingTo":"Kumar",
+                    "email":"sample16@sample.com",
+                    "mobile":"9087654336"
                   },
                   {
                     "name":"Rahul",
                     "role":"Backend Engineer",
-                    "image":"https://cdn.fakercloud.com/avatars/angelceballos_128.jpg"
+                    "image":"https://cdn.fakercloud.com/avatars/angelceballos_128.jpg",
+                    "reportingTo":"Kumar",
+                    "email":"sample17@sample.com",
+                    "mobile":"9087654337"
                   }
                 ]
             }
@@ -100,16 +150,25 @@
           "name": "Deepak",
           "role":"Head Buisness Developement",
           "image":"https://cdn.fakercloud.com/avatars/alevizio_128.jpg",
+          "reportingTo":"Mark",
+          "email":"sample18@sample.com",
+          "mobile":"9087654338",
           "children": [
             {
               "name": "Guru",
               "role":"North Zone Head",
               "image":"https://cdn.fakercloud.com/avatars/ryhanhassan_128.jpg",
+              "reportingTo":"Deepak",
+              "email":"sample19@sample.com",
+              "mobile":"9087654339",
               "children": [
                 {
                   "name": "Arvind",
                   "role":"Associat BDM",
-                  "image":"https://cdn.fakercloud.com/avatars/lowie_128.jpg"
+                  "image":"https://cdn.fakercloud.com/avatars/lowie_128.jpg",
+                  "reportingTo":"Guru",
+                  "email":"sample20@sample.com",
+                  "mobile":"9087654340"
                 }
               ]
             },
@@ -117,20 +176,32 @@
                 "name":"Kumar",
                 "role":"South Zone Head",
                 "image":"https://cdn.fakercloud.com/avatars/kianoshp_128.jpg",
+                "reportingTo":"Deepak",
+                "email":"sample21@sample.com",
+                "mobile":"9087654341",
                 "children":[
                   {
                     "name":"Paramesh",
                     "role":"Associate BDM",
-                    "image":"https://cdn.fakercloud.com/avatars/amayvs_128.jpg"
+                    "image":"https://cdn.fakercloud.com/avatars/amayvs_128.jpg",
+                    "reportingTo":"Kumar",
+                    "email":"sample22@sample.com",
+                    "mobile":"9087654342"
                   },
                   {
                     "name":"Adhav",
                     "role":"Associate BDM",
                     "image":"https://cdn.fakercloud.com/avatars/soyjavi_128.jpg",
+                    "reportingTo":"Kumar",
+                    "email":"sample23@sample.com",
+                    "mobile":"9087654343",
                     "children":[
                       {"name":"Ravana",
                         "role":"Helper",
-                        "image":"https://cdn.fakercloud.com/avatars/coreyhaggard_128.jpg"
+                        "image":"https://cdn.fakercloud.com/avatars/coreyhaggard_128.jpg",
+                        "reportingTo":"Adhav",
+                        "email":"sample24@sample.com",
+                        "mobile":"9087654343"
                         }
                       ]
                   }

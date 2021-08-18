@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import randomcolor from "randomcolor"
 import {useState} from "react";
-import d from "./data.json";
 import AddRoundedIcon from '@material-ui/icons/AddRounded';
 import RemoveRoundedIcon from '@material-ui/icons/RemoveRounded';
+import profile from './profile.png'
 const Card = (props) => {
   const levelColor = randomcolor();
   let [collapse,setCollapse]=useState(false)
@@ -21,7 +21,7 @@ const Card = (props) => {
             <div className="card">
               <div className="image">
                 <img
-                  src={item.image}
+                  src={item.image?item.image:profile}
                   alt="Profile"
                   style={{ borderColor: levelColor }}
                 />
@@ -29,6 +29,7 @@ const Card = (props) => {
               <div className="card-body">
                 <h4>{item.name}</h4>
                 <p>{item.role}</p>
+                <p>{item.reportingTo}</p>
               </div>
               {item.children?<button onClick={handleCollapse} className={collapse?"collapseBtn Btn":"expandBtn Btn"}>{collapse?<RemoveRoundedIcon/>:<AddRoundedIcon/>}</button>:""}
             </div>
@@ -40,11 +41,12 @@ const Card = (props) => {
   );
 };
 
-const Chart = () => {
-  let [data]=useState(d);
+const Chart = ({data}) => {
   return (
-    <div className="org-tree">
-      <Card data={data} />
+    <div className="container">
+      <div className="org-tree">
+        <Card data={data}/>
+      </div>
     </div>
   );
 };

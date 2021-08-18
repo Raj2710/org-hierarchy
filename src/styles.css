@@ -157,13 +157,12 @@ body {
 .card {
   position: relative;
   padding-top: 50px;
-  /* width: 300px; */
 }
 
 .card .image {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -172,8 +171,9 @@ body {
 }
 .card .image img {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  justify-content: center;
+  width: 79px;
+  height: 79px;
   border: 13px solid #96f6b7;
 }
 .card .card-body {
@@ -234,4 +234,9 @@ body {
   color: white;
   border-radius:50%;
   cursor: pointer;
+}
+
+
+.modify-container{
+    padding-top: 47px;
 }
